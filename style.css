@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "REM",sans-serif;
+    outline: none;
+}
+body{
+    
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image/DOUJ.jpg) ;
+    background-size: cover;
+    
+   
+}
+.ju{
+   margin: 10px;
+}
+.container{
+    position: relative;
+    
+    width: 100%;
+    margin-top: -20px;
+}
+.container form{
+    margin-top:-50px;
+    margin: 20px;
+    margin-left: 460px;
+    width: 450px;
+    padding: 4rem;
+    height: 600px;
+    align-items: center;
+    border-radius: 6px;
+  margin-bottom: 20px;
+ background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.8) 100%);;
+  
+   
+    
+ 
+ 
+}
+.container form h1{
+    margin-right: 10px;
+    color: white;
+    margin-bottom: 18px;
+
+    
+}
+input[type="email"],input[type="password"]{
+    padding: 1.5em;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgb(75, 75, 75);
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+form .tr{
+    margin-left: px;
+    text-decoration: none;
+    background: red;
+    padding: 16px 126px;
+   margin-top: 30px;
+   width: 700px;
+   border-radius: 4px;
+   color: white;
+   font-weight: 600;
+}
+
+input[type="password"]{
+    margin-bottom: 70px;
+}
+form .de{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form .de a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+form .se{
+    margin-bottom: 15px;
+}
+form p{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+form .se p{
+    color: gray;
+    font-size: 17px;
+}
+form .de label{
+    color: grey;
+}
+form .se a{
+    text-decoration: none;
+    color: white;
+}
+ p a{
+    text-decoration: none;
+    color: rgb(5, 42, 255);
+}
+.fc{
+    height: 24vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    
+}
+.fc ul{
+    display: flex;
+    align-items: center;
+  
+    margin-left: 40px;
+}
+.fc ul li{
+    list-style: none;
+}
+.fc ul li a{
+    text-decoration: none;
+    margin:0px 40px;
+    text-decoration: none;
+    color: grey;
+    
+}
+.fc .ed{
+   margin-top: -100px;
+   margin-left: 80px;
+   text-decoration: none;
+   color: grey;
+
+}
+.fc{
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.8) 100%);;;
+    width: 100%;
+    color: grey;
+}
+.fc .ed.GR{
+    text-decoration: none;
+   color: grey;
+}
